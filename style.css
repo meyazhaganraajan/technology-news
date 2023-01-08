@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  border-style: solid;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-image: url("https://www.esgtoday.com/wp-content/uploads/2020/01/technology-background-1632715.jpg");
+  background-size: cover;
+  background-blend-mode: color-burn;
+  color: white !important;
+}
+h2 {
+  text-align: left;
+}
+.col {
+  text-align: left;
+  justify-content: center;
+}
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 1%;
+  margin: 1%;
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
